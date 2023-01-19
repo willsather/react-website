@@ -1,4 +1,4 @@
-import './header_black.css'
+import './header.black.css'
 
 import {Link} from "react-router-dom";
 
@@ -8,7 +8,7 @@ function HeaderBlack() {
   return (
     <header className="header_black">
 
-      <div class="flex">
+      <div className="flex">
           
           <div>
               <a href="/" className="logo_white">
@@ -16,18 +16,18 @@ function HeaderBlack() {
               </a>
           </div>
 
-          <ul class="nav_white" id="nav_white">
+          <ul className="nav_white" id="nav_white">
             <li>
-              <Link to="/" Style="color:white">home</Link>
+              <Link to="/" style={{color: "white"}}>home</Link>
             </li>
             <li>
-              <Link to="/experience" Style="color:white">experience</Link>
+              <Link to="/experience" style={{color: "white"}}>experience</Link>
             </li>
             <li>
-              <a class="black_link" href="https://byt8.app" target="_blank">byt8</a>
+              <a className="black_link" href="https://byt8.app" target="_blank" rel="noreferrer">byt8</a>
             </li>
             <li>
-              <Link to="/about" Style="color:white">about</Link>
+              <Link to="/about" style={{color: "white"}}>about</Link>
             </li>
           </ul>
           

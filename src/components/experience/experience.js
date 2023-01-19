@@ -9,7 +9,7 @@ function Experience() {
             </h1>
 
             <div className="experience-body">
-                <a href="https://github.com/willsather/Will-Sather/blob/master/HTML/resume/2021%20Will%20Sather%20Resume%20(PDF).pdf" Style="color:grey" target="_blank">// check out my resume here</a>
+                <a href="https://github.com/willsather/Will-Sather/blob/master/HTML/resume/2021%20Will%20Sather%20Resume%20(PDF).pdf" style={{color: "grey"}}  target="_blank" rel="noreferrer">{`// check out my resume here`}</a>
             </div>
 
             <div className="experience-div">

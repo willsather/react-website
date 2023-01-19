@@ -12,7 +12,7 @@ function About() {
                 hi, i'm will.
             </div>
 
-            <div class="flex">
+            <div className="flex">
 
                 <div className="about-paragraph">
                     i am a senior at university of minnesota studying computer science, purusing a
@@ -29,7 +29,7 @@ function About() {
                 
                 </div>
 
-                <div class="picture">
+                <div className="picture">
                     <img src={picture} alt="Will Sather" />
                 </div>
 
